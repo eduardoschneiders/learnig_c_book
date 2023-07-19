@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-  int c = 'a';
-  int d = 'b';
+  int c, last_char;
+  c = last_char = '\0';
 
-  char last_char = '\0';
+  printf("Enter chars: \n");
 
   while ((c = getchar()) != EOF) {
-    if (c != ' ' && last_char != ' '){
+    if(c != ' ' || c == ' ' && last_char != ' '){
       putchar(c);
     }
 
