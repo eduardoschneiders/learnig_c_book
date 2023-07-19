@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-  int c;
+  int c = 'a';
+  int d = 'b';
 
   char last_char = '\0';
 
