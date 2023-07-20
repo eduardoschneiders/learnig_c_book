@@ -1,7 +1,7 @@
 {
     "files.defaultLanguage": "c++",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnEnter": "on",
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
         "c": "cd $dir && gcc -std=c11 -stdlib=libc++  $fileName  -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -18,5 +18,12 @@
     "clang.cflags": [
         "-std=c11"
     ],
-    "clang.completion.enable": true
+    "clang.completion.enable": true,
+    "files.associations": {
+        "__bit_reference": "c",
+        "bitset": "c",
+        "unordered_map": "c",
+        "chrono": "c",
+        "algorithm": "c"
+    }
 }
