@@ -30,6 +30,7 @@
         "string_view": "c",
         "__string": "c",
         "*.tcc": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "limits.h": "c"
     }
 }
